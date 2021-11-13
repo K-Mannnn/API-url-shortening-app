@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screencapture-localhost-3000-2021-11-09-12_24_28](https://user-images.githubusercontent.com/67024458/141628895-6e72ae64-95c4-4ad6-9836-a60158359b67.png
+![screencapture-localhost-3000-2021-11-09-12_24_28](https://user-images.githubusercontent.com/67024458/141632278-f612e7b6-a3f2-4f66-9b7e-80b5a2f7429e.png)
 
 ![screencapture-k-mannnn-github-io-url-app-2021-11-13-11_09_55](https://user-images.githubusercontent.com/67024458/141631038-0a3b78ac-dfe3-4788-93e9-ed7fc209e996.png)
 
