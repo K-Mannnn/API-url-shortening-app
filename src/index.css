@@ -1,0 +1,589 @@
+html{
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  min-width: 375px;
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+p{
+  color: hsl(0, 0%, 62%);
+  
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+/* ---------Nav Bar----------*/
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+nav {
+  padding:1rem;
+  width: auto;
+  position: relative;
+  }
+
+.navbar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(257, 27%, 26%);
+  border-radius: 1rem;
+  padding: 1rem .5rem;
+  position: absolute;
+  left:0;
+  right:0;
+  margin:1rem;
+  
+}
+
+.navmenu, .login {
+ text-align: center;
+ font-size: 1.25rem;
+ line-height: 3rem;
+ width: 100%;
+ 
+}
+
+.navitems{
+  text-decoration: none;
+  color: white;
+  }
+
+.btnsignup{
+  width: 95%;
+  padding: .75rem;
+  font-size: 1.25rem;
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+  border: none;
+  border-radius: 1.5rem;
+}
+
+
+
+/* -------------Intro Section------------ */
+
+
+.imgintro{
+  width: 500px;
+  height: 333px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+
+}
+
+.intro-section{
+  text-align: center;
+  overflow-x: hidden;
+}
+
+h1{
+  font-size: 2.25rem;
+  line-height: 3rem;
+  margin:2.5rem 1rem 1rem;
+}
+
+.intro-text>p{
+  margin: 0 1rem; 
+}
+
+.btn-intro{
+  padding: .75rem 2rem;
+  font-size: 1rem;
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+  border: none;
+  border-radius: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+/*---------------Main section--------------*/
+
+
+main {
+  background-color: hsla(204, 14%, 85%, 0.87);
+  margin-top: 5rem;
+}
+
+.form-section{
+  position: relative;
+  padding-top: 7rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1.25rem;
+  background-image: url(./images/bg-shorten-mobile.svg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: hsl(257, 27%, 26%);
+  border-radius: .5rem;
+  position: absolute;
+  left:0;
+  right:0;
+  top: -106.5px
+ 
+}
+
+input {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: .25rem;
+  border: none;
+  outline: 0;
+  font-size: 1rem;
+}
+
+.btn-shorten{
+  padding: 1rem;
+  border-radius: .25rem;
+  border: none;
+  outline: 0;
+  font-size: 1rem;
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+}
+
+.url-links{
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-link{
+
+  border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+
+
+.anchor{
+  color: hsl(180, 66%, 49%);
+  margin: 1rem 0;
+} 
+
+.btnCopy{
+  padding: .5rem;
+  border-radius: .25rem;
+  border: none;
+  outline: 0;
+  font-size: 1rem;
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+}
+
+.btnCopy:focus, .btn:target{
+  background-color: hsl(257, 27%, 26%);
+}
+
+.advanced{
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+
+
+.cards{
+  position: relative;
+  max-width: 375px;
+  margin: auto;
+  }
+
+.cards::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 49%;
+    border-left: 7px solid hsl(180, 70%, 48%);
+    
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+  margin:1rem;
+  border-radius: .25rem;
+  padding:3rem 1rem 1rem;
+  position: relative;
+  max-width: 339px;
+  margin-bottom: 5rem;
+}
+
+.card>img{
+  background-color: hsl(257, 27%, 26%);
+  padding: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 38.79%;
+  top: -14.49%
+}
+
+
+.boost{
+  text-align: center;
+  background-image: url(./images/bg-boost-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 0;
+  background-color: hsl(257, 27%, 26%);
+  color: white;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn-boost{
+  padding: .75rem 2rem;
+  font-size: 1rem;
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+  border: none;
+  border-radius: 1.5rem;
+
+}
+
+/* ---------Footer Section--------- */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(260, 8%, 14%);
+  
+}
+
+.footer-main{
+  width: 100%;
+}
+
+.footer-img{
+  margin-top: 2rem;
+  filter: invert(1);
+  
+}
+
+footer>div>ul>li{
+  line-height: 2rem;
+  font-size: .75rem;
+}
+
+footer>div>ul>li>a{
+  text-decoration: none;
+  color: gray
+}
+
+footer>div>ul>li>a:hover{
+  color: hsl(180, 70%, 48%);
+}
+
+.heading{
+  color: white;
+  font-weight: bold;
+}
+
+.heading:hover{
+  cursor: none;
+  color: white;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.social>li>img:hover{
+  cursor: pointer;
+  fill: hsl(180, 70%, 48%);
+
+}
+.attribution{
+  color: white;
+  font-size: .75rem;
+  margin-top: auto;
+}
+
+.kiran {
+  color: white;
+}
+
+@media(min-width: 900px){
+
+  body{
+    max-width: 1440px;
+    margin: auto;
+    min-width: 1250px;
+  }
+
+  nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 10rem ;
+  }
+
+  .logos>img{
+    height: 2rem;
+    width: auto;
+    margin-top: .55rem;
+  }
+
+  .ham-burger{
+    display: none;
+  }
+
+  .navbar{
+    position: static;
+    flex-direction: row;
+    background: none;
+    margin:0;
+    padding: 0;
+    width: 80%;
+  
+  }
+
+  .navmenu, .login{
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    align-items: center;
+    margin: 0;
+  }
+
+  .navmenu{
+    justify-content: flex-start;
+    
+  }
+
+  .login{
+    width: 30%;
+    justify-content:space-between;
+  }
+
+  .navitems{
+    color: gray;
+    font-size: .75rem;
+    margin-right: 1rem;
+  }
+
+
+  .btnsignup{
+    width: 100%;
+    padding: .5rem 1rem;
+    font-size: .75rem;
+   }
+
+   /* ---------Intro Section---------- */
+   
+  .intro-section{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 10rem;
+    justify-content: space-between;
+    
+  }
+
+  .intro-text{
+    text-align: left;
+    max-width: 468px;
+  }
+
+  .btn-intro{
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+
+  /* -------Main Section------ */
+
+  form{
+    margin: 0 11rem;
+    flex-direction: row;
+    justify-content: space-between;
+    top: -46.5px
+  }
+
+  .form-section{
+    padding-top: 3rem;
+  }
+
+  input{
+    width: 75%;
+    margin-bottom: 0;
+    padding: .75rem;
+  }
+
+  .btn-shorten{
+    width:20%;
+    padding: .75rem
+  }
+
+  .url-links{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 11rem 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .full-link{
+    border-bottom: none;
+  }
+
+  .anchor{
+    margin:0 0 0 15rem;
+  }
+
+  .btnCopy{
+    padding: .5rem 1rem;
+  }
+  /* .url-links{
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .full-link{
+  
+    border-bottom: 1px solid rgb(173, 173, 173);
+  }
+  
+  
+  
+  .anchor{
+    color: hsl(180, 66%, 49%);
+    margin: 1rem 0;
+  } 
+  
+  .btnCopy{
+    padding: .5rem;
+    border-radius: .25rem;
+    border: none;
+    outline: 0;
+    font-size: 1rem;
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+  } */
+
+
+
+
+
+
+  .advanced{
+    max-width: 45ch;
+    margin: auto;
+  }
+
+  .cards{
+    display: flex;
+    max-width: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+    margin: 5rem auto 0;
+  }
+
+  .first{
+    align-self: flex-start;
+  }
+  .second{
+    align-self: center;
+  }
+  
+  .third{
+    align-self: flex-end;
+  }
+
+  .card{
+    margin: 0;
+    text-align: left;
+  }
+
+  .card:nth-of-type(2n){
+    margin:0 1rem 7rem 1rem;
+  }
+
+  .card:nth-of-type(3n){
+    margin-bottom: 7rem;
+  }
+
+  .cards::before{
+   transform: rotate(90deg);
+   top: -150px
+    
+  }
+
+  .card>img{
+    left: 10%;
+   
+  }
+
+  .boost{
+    background-image: url(./images/bg-boost-desktop.svg);
+  }
+
+  /*----------- Footer Section ------------*/
+
+  footer{
+    padding: 3rem 8rem 0;
+    margin: 0;
+  }
+  .footer-main{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social{
+    width: 25%;
+    margin: 0;
+  }
+
+  .footer-main>ul, .footer-img{
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .footer-img{
+    height: 50px;
+  }
+
+  .attribution{
+    margin-top: auto;
+  }
+
+
+
+
+
+}
