@@ -26,6 +26,10 @@ Users should be able to:
 - See a list of their shortened links, even after refreshing the browser
 - Copy the shortened link to their clipboard in a single click
 
+### Links
+
+- Live Site URL: https://k-mannnn.github.io/url-app/
+
 ### Screenshot
 
 ![screencapture-localhost-3000-2021-11-09-12_24_28](https://user-images.githubusercontent.com/67024458/141632278-f612e7b6-a3f2-4f66-9b7e-80b5a2f7429e.png)
@@ -36,9 +40,7 @@ Users should be able to:
 )
 
 
-### Links
 
-- Live Site URL: https://k-mannnn.github.io/url-app/
 
 ## My process
 
