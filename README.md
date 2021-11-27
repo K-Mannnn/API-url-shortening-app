@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://k-mannnn.github.io/Manage-Landing-Page/
+- Live Site URL: https://k-mannnn.github.io/url-app/
 
 ## My process
 
